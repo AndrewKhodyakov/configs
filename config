@@ -164,3 +164,4 @@ bindsym $mod+Control+l exec i3lock
 bindsym $mod+p exec evince
 bindsym $mod+c exec cmus
 bindsym $mod+Print exec scrot -u '%Y%m%d_%H%M%S.png' -e 'mv $f ~/Изображения/screenshots'
+exec xmodmap ~/.Xmodmap &
