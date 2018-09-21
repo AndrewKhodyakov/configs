@@ -10,5 +10,5 @@
 # bits.
 #
 # By default this script does nothing.
-localectl --no-convert set-x11-keymap us,ru pc105, grp:rwin_toggle,grp_led:scroll,caps:escape
+localectl --no-convert set-x11-keymap us,ru pc105, grp:rctrl_toggle,grp_led:scroll,caps:escape
 exit 0
