@@ -8,10 +8,10 @@
 XKBMODEL="pc105"
 XKBLAYOUT="us,ru"
 XKBVARIANT=","
-#XKBOPTIONS="grp:alt_shift_toggle,grp_led:scroll"
-XKBOPTIONS="grp:alt_shift_toggle,grp_led:scroll,caps:escape"
+XKBOPTIONS="grp:rwin_toggle,grp_led:scroll,caps:escape"
 # If you don't want to use the XKB layout on the console, you can
 # specify an alternative keymap.  Make sure it will be accessible
 # before /usr is mounted.
 # KMAP=/etc/console-setup/defkeymap.kmap.gz
+#BACKSPACE="guess"
 BACKSPACE="guess"
