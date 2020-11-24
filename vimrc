@@ -70,7 +70,11 @@ set imsearch=0
 highlight lCursor guifg=NONE guibg=Cyan 
 
 "set nospell
+set spell
 set spelllang=ru_yo,en_us  
+let g:spellfile_URL = 'http://ftp.vim.org/vim/runtime/spell'
+hi clear SpellBad
+hi SpellBad cterm=underline
 
 "plugins
 filetype on
