@@ -68,6 +68,7 @@ set keymap=russian-jcukenwin
 set iminsert=0 
 set imsearch=0 
 highlight lCursor guifg=NONE guibg=Cyan 
+set hlsearch
 
 "set nospell
 set spell
